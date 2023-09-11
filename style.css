@@ -150,12 +150,10 @@ h3{
 
 
 .card:nth-child(2) {
-    /* margin-top: 1rem; */
     transform: translateY(1.5rem);
 }
 
 .card:nth-child(3) {
-    /* margin-top: 2rem; */
     transform: translateY(2.8rem);
 }
 
@@ -164,6 +162,9 @@ h3{
 
     body{
         padding: 15vw 7vw;
+        background: url(./image/bg-pattern-top-mobile.svg), url(./image/bg-pattern-bottom-mobile.svg);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat;
     }
 
     .top-half{
