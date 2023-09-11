@@ -200,6 +200,8 @@ h3{
     .cards-column{
         display: flex;
         flex-direction: column;
+        gap: 0rem;
+    
     }
     
 }
